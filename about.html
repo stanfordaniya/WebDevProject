@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>About</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="index.html"><button>Home</button></a>
+    <a href="about.html"><button>About</button></a>
+    <a href="contact.html"><button>Contact</button></a>
+  </nav>
+
+  <!-- About Section -->
+  <div class="container about-section">
+    <h1>About Me</h1>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="Aniya_stanford_3559.jpg" alt="Aniya Stanford">
+      </div>
+      <div class="about-summary" id="summary1">
+        <p>Hello! My name is Aniya Stanford, and I'm currently pursuing a Bachelor of Science in Information Technology
+          at Kennesaw State University, with an expected graduation date in May 2026. Located in Atlanta, Georgia, I
+          have a diverse range of experiences and skills in the IT field, driven by a passion for technology and
+          cybersecurity.</p>
+        <p>Throughout my academic and professional journey, I've had the opportunity to intern at several organizations,
+          where I’ve gained technical skills and practical experience.</p>
+        <p>I am well-versed in a variety of technical skills, including CSS, HTML, JavaScript, React, C#, SQL, Python,
+          and have foundational knowledge in cybersecurity. My core competencies include leadership, communication,
+          problem-solving, teamwork, flexibility, time management, responsibility, and being results-oriented.</p>
+        <p>In addition to my technical skills, I am actively involved in the National Society of Black Engineers (NSBE)
+          and Kennesaw State University's chapter of NSBE, as well as the KSU Women in Technology organization.</p>
+
+        <span class="big-arrow" onclick="showMoreInfo()">&#8594;</span>
+      </div>
+      <div class="about-summary hidden" id="summary2">
+        <p>My Resume:</p>
+        <a href=AniyaStanford_Resume.pdf download="AniyaStanford_Resume.pdf"><button>Download My Resume</button></a>
+        <span class="big-arrow" onclick="showLessInfo()">&#8592;</span>
+      </div>
+    </div>
+
+
+  
+  </div>
+
+  <!-- Include JavaScript file -->
+  <script src="script.js"></script>
+  <script>
+    function showMoreInfo() {
+      document.getElementById('summary1').classList.add('hidden');
+      document.getElementById('summary2').classList.remove('hidden');
+    }
+
+    function showLessInfo() {
+      document.getElementById('summary2').classList.add('hidden');
+      document.getElementById('summary1').classList.remove('hidden');
+    }
+  </script>
+</body>
+
+</html>
