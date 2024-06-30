@@ -1,4 +1,4 @@
-# Web Development Project 3203
+# Web Development Portfolio Project  
 
 ## Description
 This project is a portfolio website comprosed of three pages; Home, About and Contact. The main goal is to show my skills in front end web development using HTML for structure CSS for design and JavaScript for adding interactive elements. Along with a preview of who i am. 
@@ -6,7 +6,6 @@ This project is a portfolio website comprosed of three pages; Home, About and Co
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
